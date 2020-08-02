@@ -1,5 +1,4 @@
-(ns alphabet-cipher.coder
-  (:require [clojure.string :as str]))
+(ns alphabet-cipher.coder)
 
 (def alphabet (mapv char (range (int \a) (inc (int \z)))))
 
